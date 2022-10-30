@@ -47,11 +47,16 @@ p
     {
     padding: 10px;
     }
+header 
+    {
+    margin: 10px 10px 0px 10px ;
+    }
 header > div
     {
     text-align: center;
-    width: 100vw;
     background-color: var(--cor3);
+    box-shadow: 3px 3px 10px black;
+    margin: 2px;
     }
 header > div > i
     {
@@ -64,7 +69,6 @@ header > div > i
     {
     border: solid black;
     margin: 5px;
-    box-shadow:  10px 10px 10px black;
     }
 #titulo
     {
