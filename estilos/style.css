@@ -8,7 +8,7 @@
     --cor0:#0B00EB;
     --cor1:#2519FF;
     --cor2:#08009E;
-    --cor3:#9E8400;;
+    --cor3:#bfbafa;
     --cor4:#EBC400;
     --cor5:#9E6A10;
     --cor6:#EB990C;
@@ -51,8 +51,7 @@ header > div
     {
     text-align: center;
     width: 100vw;
-    background-color: white;
-    padding-bottom: 10px;
+    background-color: var(--cor3);
     }
 header > div > i
     {
@@ -60,6 +59,12 @@ header > div > i
     font-size: 3em;
     padding: 10px;
     text-align: center;
+    }
+#cabecalho
+    {
+    border: solid black;
+    margin: 5px;
+    box-shadow:  10px 10px 10px black;
     }
 #titulo
     {
@@ -74,7 +79,7 @@ header > div > i
 nav
     {
     display: none;
-    background-color: var(--cor2);
+    box-shadow: 1px 1px 2px black;
     }
 nav > a
     {
@@ -85,7 +90,6 @@ nav > a
     font-family: var(--fonte-titulo);
     background-color: white;
     color: var(--cor2);
-    text-size-adjust: 1em;
     border: solid rgb(114, 114, 114);
     }
 nav > a:hover
@@ -99,5 +103,6 @@ main
     background-color: white;
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    box-shadow: 1px 1px 4px black;
     }
 
