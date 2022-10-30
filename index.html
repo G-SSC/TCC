@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <div>
-            <i class="material-icons">list</i>
+            <i id="burguer" class="material-icons" onclick="clickMenu()">list</i>
             <h1 id="titulo">SPORTIVE GLOBAL WIKI</h1>
-            <nav>
+            <nav id="navegacao">
+                asdasdas
             </nav>
         </div>
     </header>
@@ -27,6 +28,7 @@
         </section>
         <section>
             <article>
+                <h1>Esportes</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum natus molestiae iste assumenda nisi, numquam quas explicabo quos voluptatibus labore suscipit unde! Dolorem explicabo numquam minima praesentium odio nihil id!</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore aperiam nam sint amet quo placeat. Eveniet aspernatur, consequatur neque, quae illo, corrupti explicabo veniam consectetur sunt eos quidem provident. Laboriosam.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sunt aut magni vel officiis! Commodi accusamus expedita fugiat consequatur natus, deserunt odio adipisci excepturi quae sit architecto dolorem rem debitis?</p>
@@ -39,5 +41,30 @@
     <footer>
 
     </footer>
+
+    <script>
+    function mudouTamanho()
+            {
+            if(window.innerwidth >= 768  )
+                {
+                navegacao.style.display = 'none'
+                }
+                else
+                    {
+                    navegacao.style.display = 'block'
+                    }
+            }
+        function clickMenu()
+            {
+            if(navegacao.style.display != 'none')
+                {
+                navegacao.style.display = 'none'
+                }
+                else
+                    {
+                    navegacao.style.display = 'block'
+                    }
+            }
+    </script>
 </body>
 </html>
