@@ -16,15 +16,22 @@
     <header>
         <div>
             <section id="cabacalho">
-                <i id="burguer" class="material-icons" onclick="clickMenu()">list</i>
                 <h1 id="titulo">SPORTIVE GLOBAL WIKI</h1>
             </section>
-            <nav id="navegacao">
-                <a href="sumario.html"> Lista de Esportes</a>
-            </nav>
         </div>
     </header>
-    <main>
+    <div id="menu">
+        <i id="burguer" class="material-icons" onclick="clickMenu()">list</i>
+        <nav id="nav">
+            <ul>
+                <li><a href="sumario.html"> Lista de Esportes</a></li>
+                <li><a href="sumario.html"> Mamacos loucos</a></li>
+                <li><a href="sumario.html"> Putas trepadeiras</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="navbg"></div>
+    <main id="main">
         <section id="novidades">
 
         </section>
@@ -63,13 +70,15 @@
             }
         function clickMenu()
             {
-            if(navegacao.style.display != 'none')
+            if(nav.style.display != 'none')
                 {
-                navegacao.style.display = 'none'
+                nav.style.display = 'none';
+                navbg.style.display = 'none';
                 }
                 else
                     {
-                    navegacao.style.display = 'block'
+                    nav.style.display = 'block';
+                    navbg.style.display = 'block';
                     }
             }
     </script>
