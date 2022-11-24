@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
 
     <link rel="stylesheet" href="estilos/style.css" media="all">
+    
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body onresize="mudouTamanho()">
@@ -21,16 +22,23 @@
         </div>
     </header>
     <div id="menu">
-        <i id="burguer" class="material-icons" onclick="clickMenu()">list</i>
-        <nav id="nav">
-            <ul>
-                <li><a href="sumario.html"> Lista de Esportes</a></li>
-                <li><a href="sumario.html"> Mamacos loucos</a></li>
-                <li><a href="sumario.html"> Putas trepadeiras</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div id="navbg"></div>
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href=""> ITEM 1</a></li>
+            <li><a href=""> ITEM 2</a></li>
+            <li><a href=""> ITEM 3</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
     <main id="main">
         <section id="novidades">
 
@@ -55,32 +63,12 @@
     <footer>
 
     </footer>
-
     <script>
-    function mudouTamanho()
-            {
-            if(window.innerwidth >= 768  )
-                {
-                navegacao.style.display = 'none'
-                }
-                else
-                    {
-                    navegacao.style.display = 'block'
-                    }
-            }
-        function clickMenu()
-            {
-            if(nav.style.display != 'none')
-                {
-                nav.style.display = 'none';
-                navbg.style.display = 'none';
-                }
-                else
-                    {
-                    nav.style.display = 'block';
-                    navbg.style.display = 'block';
-                    }
-            }
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
     </script>
 </body>
 </html>
