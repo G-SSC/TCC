@@ -9,7 +9,7 @@
     --cor1:#2519FF;
     --cor2:#08009E;
     --cor3:#bfbafa;
-    --cor4:#EBC400;
+    --cor4:#e2e0ff;
     --cor5:#9E6A10;
     --cor6:#EB990C;
     --cor7:#8B9E10;
@@ -37,9 +37,12 @@ body
     {
     height: 100vh;
     background-image:linear-gradient(to bottom, var(--cor0), var(--cor2));;
+    background-image: url(../imagens/fundo_index.jpg) ;
     }
 h1
     {
+    font-family: var(--fonte-titulo);
+    color: var(--cor2);
     padding: 10px;
     margin: 5px;
     }
@@ -182,5 +185,18 @@ main
     transition: width .3s, height .3s;
     transition-timing-function: ease;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.445);
+    background-color: var(--cor4);
     }
-
+a
+  {
+  text-decoration: none;
+  color: var(--cor0);
+  }
+.img
+  {
+  text-align: center;
+  }
+img
+  {
+  display: inline-block;
+  }
