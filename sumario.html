@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="estilos/media-query.css">
+
+    <style>
+    html
+        {
+        background-image: url(imagens/fundo_index.jpg) ;
+        background-repeat: repeat;
+        background-position: center center;
+        }
+    </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section id="cabacalho">
+                <h1 id="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="index.html"> Pagina Principal</a></li>
+            <li><a href="sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main id="main">
+        <section id="novidades">
+
+        </section>
+        <section>
+            <article>
+                <h1>Benefícios de se praticar esportes</h1>
+                <p>mama</p>
+            </article>
+            <aside>
+
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>
