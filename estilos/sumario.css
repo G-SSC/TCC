@@ -1,0 +1,13 @@
+html
+    {
+    }
+main   
+    {
+    margin: auto    
+}
+ul
+    {
+    list-style-type:circle;
+    list-style-position: inside;
+    columns: 8;
+    }
