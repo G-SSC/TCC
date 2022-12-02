@@ -29,17 +29,16 @@
     width: 0px;
     height: 0px;   
     }
-html, body
+html
     {
     background-color: var(--cor2); 
     }
-body
-    {
-    height: 100vh;
-    background-image:linear-gradient(to bottom, var(--cor0), var(--cor2));;
-    background-image: url(../imagens/fundo_index.jpg) ;
-    background-repeat: repeat;
-    }
+    body
+        {
+        background-image: url(imagens/fundo_index.jpg) ;
+        background-size: 100% 100%;
+        position:relative;
+        }  
 h1
     {
     font-family: var(--fonte-titulo);

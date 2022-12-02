@@ -1,13 +1,16 @@
-html
+h1
     {
+    text-align: center;
     }
-main   
+article ul
     {
-    margin: auto    
-}
-ul
-    {
+    padding: 10px;
     list-style-type:circle;
     list-style-position: inside;
     columns: 8;
+    }
+li
+    {
+    padding: 0 0 5px 0;
+    margin: 2px;
     }
