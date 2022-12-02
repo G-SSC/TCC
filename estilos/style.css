@@ -33,12 +33,12 @@ html
     {
     background-color: var(--cor2); 
     }
-    body
-        {
-        background-image: url(imagens/fundo_index.jpg) ;
-        background-size: 100% 100%;
-        position:relative;
-        }  
+body
+    {
+    background-image: url(imagens/fundo_index.jpg) ;
+    background-size: 100% 100%;
+    position:relative;
+    }  
 h1
     {
     font-family: var(--fonte-titulo);
@@ -201,6 +201,7 @@ header > div > i
     transform: translate(-60%, -30%);
     }
 /*Conteúdo Principal*/ 
+
 main
     {
     display: inline-block;
