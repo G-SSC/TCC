@@ -43,6 +43,7 @@ body
 h1
     {
     font-family: var(--fonte-titulo);
+    font-size: 2em;
     color: var(--cor2);
     padding: 10px;
     margin: 5px;
@@ -50,6 +51,7 @@ h1
 p
     {
     padding: 10px;
+    font-size: 1.3em;
     }
 
 /*Parte do cabeçalho da pagina*/ 
@@ -212,6 +214,10 @@ main
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.445);
     background-color: var(--cor4);
     }
+article
+    {
+    text-align: center;
+    }
 a
   {
   text-decoration: none;
@@ -229,7 +235,7 @@ img
 footer
   {
   padding-top: 10px;
-  height:30px ;
+  height:60px ;
   box-shadow: 1px 1px 1px black;
   background-color: var(--cor3);
   }

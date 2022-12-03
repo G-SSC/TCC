@@ -14,13 +14,16 @@ li
     padding: 0 0 80px 0;
     margin: 2px;
     }
-#link-esporte{
-        text-align: justify;
-        margin: 1%;
-        padding: 5px;
-        font-size: 6vh;
-        color: var(--cor9);
-        border-radius: 15px;
-        border: solid;
-        display: inline-table;
+#link-esporte
+    {
+    width:380px;
+    text-align: center;
+    margin: 1%;
+    padding: 5px;
+    font-size: 2em;
+    color: var(--cor2);
+    border-radius: 15px;
+    border: solid;
+    display: inline-table;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.514);
     }
