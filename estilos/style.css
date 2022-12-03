@@ -62,7 +62,7 @@ header > div
     text-align: center;
     background-color: var(--cor3);
     }
-#cabecalho
+.cabecalho
     {
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.452);
     }
@@ -74,7 +74,7 @@ header > div > i
     text-align: center;
     }
 
-#titulo
+.titulo
     {
     display: inline-block;
     padding: 10px;

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+
+    <link rel="stylesheet" href="../estilos/sumario.css">
+
+    <link rel="stylesheet" href="../code/code.js">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_index.jpg) ;
+            background-size: 100% 100%;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="index.html"> Pagina Principal</a></li>
+            <li><a href="sumario.html"> Sumário  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1>Sumário</h1>
+                <p>Aqui podemos encontrar todos os tipos de esporte, caso haja algum esporte que não esteja aqui, entre em contato com nossa equipe no nosso menu "sobre", passe as informações necessárias, como o nome do esporte, as regras, a história, e tudo que seja correlacionado a isso, auxiliará na velocidade de adição no site, faremos o possível para adicionar o quato antes. </p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consequuntur, voluptas cum quaerat delectus pariatur nostrum odio quasi ea, sequi blanditiis expedita eos magnam culpa corporis! Ea cumque corporis saepe.</p>
+                    
+                <section class="img">
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="../imagens/esportes_minimini_index.jpg" type="image/png">
+                        <source media="(max-width: 800px)" srcset="../imagens/esportes_mini_index.jpg" type="image/png">
+                        <img src="../imagens/esportes_index.jpg" alt="Rugby">
+                    </picture>
+                </section>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consequuntur, voluptas cum quaerat delectus pariatur nostrum odio quasi ea, sequi blanditiis expedita eos magnam culpa corporis! Ea cumque corporis saepe.</p>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consequuntur, voluptas cum quaerat delectus pariatur nostrum odio quasi ea, sequi blanditiis expedita eos magnam culpa corporis! Ea cumque corporis saepe.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consequuntur, voluptas cum quaerat delectus pariatur nostrum odio quasi ea, sequi blanditiis expedita eos magnam culpa corporis! Ea cumque corporis saepe.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consequuntur, voluptas cum quaerat delectus pariatur nostrum odio quasi ea, sequi blanditiis expedita eos magnam culpa corporis! Ea cumque corporis saepe.</p>
+
+                <section class="img">
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="../imagens/esportes_minimini_index.jpg" type="image/png">
+                        <source media="(max-width: 800px)" srcset="../imagens/esportes_mini_index.jpg" type="image/png">
+                        <img src="../imagens/esportes_index.jpg" alt="Rugby">
+                    </picture>
+                </section>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consequuntur, voluptas cum quaerat delectus pariatur nostrum odio quasi ea, sequi blanditiis expedita eos magnam culpa corporis! Ea cumque corporis saepe.</p>
+
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>
