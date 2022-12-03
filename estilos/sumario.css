@@ -27,3 +27,11 @@ li
     display: inline-table;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.514);
     }
+#link-esporte:hover
+    {
+    left: 10px;
+    top:10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+    transform: translate(-3px, -3px);
+    transition: 0.3s ease;
+    }

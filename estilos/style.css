@@ -33,12 +33,6 @@
 html
     {
     background-color: var(--cor2); 
-    }
-body
-    {
-    background-image: url(imagens/fundo_index.jpg) ;
-    background-size: 100% 100%;
-    position:relative;
     }  
 h1
     {
@@ -92,6 +86,8 @@ header > div > i
 #menu 
   {
   z-index: 2;
+  transform: translate(-3px, -3px);
+  transition: 0.3s ease ;
   }
       
 #menu-bar 
