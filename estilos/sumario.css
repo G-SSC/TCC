@@ -1,3 +1,4 @@
+
 h1
     {
     text-align: center;
@@ -16,7 +17,7 @@ li
     }
 #link-esporte
     {
-    width:380px;
+    min-width:29%;
     text-align: center;
     margin: 1%;
     padding: 5px;
@@ -35,3 +36,4 @@ li
     transform: translate(-3px, -3px);
     transition: 0.3s ease;
     }
+

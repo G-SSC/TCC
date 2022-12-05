@@ -42,6 +42,22 @@ h1
     padding: 10px;
     margin: 5px;
     }
+h2
+    {
+    font-family: var(--fonte-titulo);
+    font-size: 1.6em;
+    color: var(--cor2);
+    padding: 10px;
+    margin: 5px;
+    }
+h3
+    {
+    font-family: var(--fonte-titulo);
+    font-size: 1.3em;
+    color: var(--cor2);
+    padding: 10px;
+    margin: 5px;
+    }
 p
     {
     padding: 10px;
