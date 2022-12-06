@@ -219,6 +219,7 @@ header > div > i
 
 main
     {
+    min-height: 800px;
     display: inline-block;
     background-color: white;
     transition: width .3s, height .3s;
