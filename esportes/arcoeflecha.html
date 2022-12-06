@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1>Arco e Flecha</h1>
+                
+                    <h2>História</h2>
+
+                <p>O uso do arco e flecha se perde na história da humanidade, já que constam registros da utilização desses instrumentos desde as pinturas rupestres.
+                    Alguns pesquisadores afirmam que a sua presença se dá ainda no período Paleolítico, quando os caçadores notaram o potencial dos utensílios para a caça. Seu uso também era para a guerra.</p>
+                
+                <p>O arco e flecha passou a ser utilizado como esporte ainda no século XVII, com um torneio realizado na Inglaterra. O objetivo do tiro com arco é fazer a maior pontuação possível.
+                    O esporte foi introduzido nos Jogos Olímpicos em 1900 e permaneceu até 1920, depois de um tempo fora da competição, voltou no ano de 1972 e se encontra até os dias atuais.</p>
+                
+                 <h2>Regras</h2>
+
+                <p>O objetivo do jogo é acertar o centro do alvo para obter pontos. Quanto mais próximo do alvo central, mais pontos o atirador ganha. No final de uma partida, ganha o arqueiro ou dupla que mais pontos conseguirem.
+ 
+                    Todos os equipamentos devem passar por uma checagem antes dos tiros. Quem faz essa checagem são os árbitros.</p>
+                
+                <p>Além disso, o esporte tem outras regras, como o arco recurvo não pode ser mirado com uma fibra ótica maior de 2 centímetros. As dedeiras não podem conter ganchos ou ferramentas.
+ 
+                    Ao fim das rodadas, os competidores têm que ir até o alvo para checar a pontuação obtida, esses pontos devem ser anotados em uma planilha, depois devem ticar o alvo que a flecha atingiu, e por fim retirar as flechas (tudo deve ser feito nessa ordem).</p>
+
+                <p>O tempo são de quatro minutos para as rodadas de seis disparos, e o momento que o competidor deve iniciar e concluir seu tiro é anunciado pelo som de uma corneta ou apito.</p>
+            
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>

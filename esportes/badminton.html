@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1>Badminton</h1>
+                
+                <h2>História</h2>
+
+                <p>O badminton foi criado no século XIX na Inglaterra, inspirado num jogo que era praticado na Índia chamado de Poona. No entanto, um jogo semelhante já era praticado na Grécia Antiga: Tamborete e Peteca.</p>
+
+                <p>O nome desse esporte está relacionado com a Badminton House, local que supostamente foi jogado pela primeira vez. A Badminton House era propriedade do Duque de Beaufort's. Sua popularidade foi crescendo com o passar do tempo. Da Inglaterra ele foi levado para outros países da Europa, Ásia e América. Entretanto, no Brasil, o Badminton ainda não é um jogo muito popular, embora essa modalidade venha crescendo a cada ano.</p>
+
+                <p>Sua consolidação se deu com a fundação da "Federação Internacional de Badminton", em 1934. Atualmente o nome desse órgão é Federação Mundial de Badminton (BWF) e sua sede está localizada na cidade de Gloucestershire, na Inglaterra. Essa entidade é responsável por organizar eventos desse esporte, com destaque para o "Campeonato Mundial de Badminton".</p>
+
+                <p>Hoje, mais de 130 países são membros da Federação. Alguns países que dominam esse esporte são: China, Indonésia, Coréia e Malásia, todos no continente asiático.
+                Somente no início da década de 90 que o badminton foi incluso nas modalidades olímpicas. Sua estréia aconteceu nas Olimpíadas de Barcelona em 1992.</p>
+
+                <p>No Brasil, a primeira partida oficial de Badminton foi realizada em São Paulo no início da década de 80. Em 1993 foi criada a "Confederação Brasileira de Badminton", responsável por organizar eventos desse esporte no Brasil. Sem dúvida, esse momento foi crucial para o aumento da prática do badminton no território nacional.</p>
+
+                <h2>Fundamentos</h2>
+
+                <p>O badminton está baseado em movimentos de saque e defesa. A quadra de badminton é dividida por uma rede que está cerca de 1,55 metros do solo. Uma partida de badminton possui três sets de 21 pontos cada. Vence o jogo quem fizer dois sets primeiro.</p>
+
+                <p>Jogado com raquete e peteca, ganha ponto quem deixar a peteca tocar no espaço adversário. Portanto, o importante é não deixar a peteca tocar no chão. Geralmente a peteca é feita com penas de ganso e pesa entre pesando entre 4 a 5 gramas. Entretanto, ela pode ser feita de nylon. Já a raquete de Badminton pesa cerca de 100 gramas. Ainda que sejam leves, elas são feitas de material muito</p>
+
+                <h2>Regras</h2>
+
+                <h3>Jogadores</h3>
+                <p>O Badminton pode ser praticado entre 2 jogadores adversários (modalidade simples) ou entre 4 jogadores (modalidade duplas), sendo 2 de cada equipe. No início, o juiz lança uma moeda no ar e por meio da cara ou coroa ele indica qual time irá começar.</p>
+                <p>Com o saque inicial o jogo se desenvolve com diversos movimentos de ataque e defesa. É importante que a peteca não ultrapasse as linhas da quadra. O primeiro set termina com 21 pontos. Entre ele, o segundo e o terceiro set há um intervalo.</p>
+                <p>No jogo de badminton, é considerado falta se o jogador encostar na rede, a peteca encostar no corpo ou ocorrer invasão do espaço adversário. Não é permitido dar dois toques consecutivos na peteca no mesmo lado da quadra.</p>
+                <h3>Quadra</h3>
+                <p>O badminton pode ser jogado numa quadra fechada ou mesmo num campo. Em ambos os casos, o local de prática é retangular sendo suas medidas aproximadamente 13 metros de comprimento por 6 de largura. Note que as dimensões da quadra variam de acordo com o número de jogadores.</p>
+                
+
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>

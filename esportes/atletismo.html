@@ -9,24 +9,23 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
 
-    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
     
-    <link rel="stylesheet" href="estilos/media-query.css">
-
+    <link rel="stylesheet" href="../estilos/media-query.css">
     <style>
-    html
-        {
-        background-image: url(imagens/fundo_index.jpg) ;
-        background-repeat: repeat;
-        background-position: center center;
-        }
-    </style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
 </head>
 <body onresize="mudouTamanho()">
     <header>
         <div>
-            <section id="cabacalho">
-                <h1 id="titulo">SPORTIVE GLOBAL WIKI</h1>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
             </section>
         </div>
     </header>
@@ -39,26 +38,25 @@
     
     <nav class="nav" id="nav"> 
         <ul>
-            <li><a href="index.html"> Pagina Principal</a></li>
-            <li><a href="sobre.html"> Sobre  </a></li>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
         </ul>
     </nav>
 </div>
 
 <div class="menu-bg" id="menu-bg"> </div>
 
-    <main id="main">
-        <section id="novidades">
-
-        </section>
+    <main>
         <section>
             <article>
-                <h1>Benefícios de se praticar esportes</h1>
-                <p>mama</p>
-            </article>
-            <aside>
+                <h1>Atletismo</h1>
+                
+                <h2>História</h2>
 
-            </aside>
+                <p>O atletismo surgiu como esporte na Grécia Antiga em 776 a.C., ano que a primeira Olimpíada da história foi realizada, na cidade de Olímpia. Nessa altura, era disputada apenas uma prova nas Olimpíadas, uma corrida com 200 metros que era chamada pelos gregos de stadium. O nome do primeiro vencedor dessa prova é Coroebus.</p>
+                
+            </article>
         </section>
     </main>
     <footer>
@@ -66,6 +64,7 @@
             <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
         </section>
     </footer>
+
     <script>
         function menuOnClick() {
             document.getElementById("menu-bar").classList.toggle("change");

@@ -14,6 +14,7 @@
     --cor6:#EB990C;
     --cor7:#8B9E10;
     --cor8:#CDEB0C;
+    --cor9:#00a1e7;
     
     --fonte-titulo:'Source Serif Pro', serif; ;
     --fonte-texto:'';
@@ -29,20 +30,30 @@
     width: 0px;
     height: 0px;   
     }
-html, body
+html
     {
     background-color: var(--cor2); 
-    }
-body
-    {
-    height: 100vh;
-    background-image:linear-gradient(to bottom, var(--cor0), var(--cor2));;
-    background-image: url(../imagens/fundo_index.jpg) ;
-    background-repeat: repeat;
-    }
+    }  
 h1
     {
     font-family: var(--fonte-titulo);
+    font-size: 2em;
+    color: var(--cor2);
+    padding: 10px;
+    margin: 5px;
+    }
+h2
+    {
+    font-family: var(--fonte-titulo);
+    font-size: 1.6em;
+    color: var(--cor2);
+    padding: 10px;
+    margin: 5px;
+    }
+h3
+    {
+    font-family: var(--fonte-titulo);
+    font-size: 1.3em;
     color: var(--cor2);
     padding: 10px;
     margin: 5px;
@@ -50,6 +61,7 @@ h1
 p
     {
     padding: 10px;
+    font-size: 1.3em;
     }
 
 /*Parte do cabeçalho da pagina*/ 
@@ -63,7 +75,7 @@ header > div
     text-align: center;
     background-color: var(--cor3);
     }
-#cabecalho
+.cabecalho
     {
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.452);
     }
@@ -75,7 +87,7 @@ header > div > i
     text-align: center;
     }
 
-#titulo
+.titulo
     {
     display: inline-block;
     padding: 10px;
@@ -90,6 +102,8 @@ header > div > i
 #menu 
   {
   z-index: 2;
+  transform: translate(-3px, -3px);
+  transition: 0.3s ease ;
   }
       
 #menu-bar 
@@ -202,14 +216,20 @@ header > div > i
     transform: translate(-60%, -30%);
     }
 /*Conteúdo Principal*/ 
+
 main
     {
+    min-height: 800px;
     display: inline-block;
     background-color: white;
     transition: width .3s, height .3s;
     transition-timing-function: ease;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.445);
     background-color: var(--cor4);
+    }
+article
+    {
+    text-align: center;
     }
 a
   {
@@ -228,7 +248,7 @@ img
 footer
   {
   padding-top: 10px;
-  height:30px ;
+  height:60px ;
   box-shadow: 1px 1px 1px black;
   background-color: var(--cor3);
   }

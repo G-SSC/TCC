@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1>BMX</h1>
+                
+                <h2>História</h2>
+
+                <p>
+                    O ciclismo BMX surgiu na Califórnia (Estados Unidos) em 1968. Sua origem está relacionada como uma espécie de adaptação do Moto Cross para bicicletas.
+ 
+                    Nas décadas de 1970 e 1980, o esporte se espalhou pelo mundo, chegando inclusive no Brasil.
+                </p>
+
+                <p>
+                    No mês de abril de 1981, foi fundada a Federação Internacional de BMX.
+ 
+                    O primeiro campeonato mundial foi realizado em 1982, na cidade de Las Vegas (EUA). Em 2008, nos Jogos Olímpicos de Pequim, o ciclismo BMX fez sua estreia como esporte olímpico.
+                </p>
+
+                <h3>As bicicletas de BMX</h3>
+
+                <p>
+                    As bicicletas utilizadas pelos ciclistas desta modalidade são específicas e possuem características adaptadas às condições das pistas. São bicicletas leves, resistentes e de pequeno porte. Geralmente possuem rodas de aro 20 e pneus apropriados para a terra. Elas possuem apenas uma marcha e um freio (roda de trás).
+                </p>
+
+                <h2>Regras</h2>
+
+                <p>
+                    O ciclista deve utilizar uma bicicleta com características determinadas pela organização da competição. Ou seja, todos devem competir com bicicletas com rodas de mesmo tamanho, além de outras características.
+                </p>
+
+                <p>
+                    Todos os ciclistas devem usar equipamentos de segurança obrigatórios como, por exemplo, capacete com protetor de boca, joelheira, luvas, tênis e roupas apropriadas. Como as quedas ocorrem com frequência neste esporte, estes equipamentos são primordiais para garantir a segurança dos ciclistas.
+                </p>
+                
+                <p>
+                    A corrida deve começar numa rampa (com oito metros aproximadamente) para que os ciclistas ganhem velocidade logo no início.
+ 
+                    Os ciclistas não podem fazer manobras ou movimentos que derrubem propositalmente outros ciclistas.
+                </p>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>

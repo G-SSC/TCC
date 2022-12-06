@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1>Argolas</h1>
+                
+                <h2>História</h2>
+
+               <p>No início dos moldes da modalidade, jahn e Muths incluíram os aparelhos masculinos quase como se conhece hoje, com exceção das argolas. Embora a existência do aparelho date de dois mil anos,
+                 só em 1802, Adolf Spiess, introduziu o que chamou de ringeschwebel, constituído de material metálico.</p>
+
+               <p>Ao longo dos anos, o material evoluiu, sendo posteriormente, coberto com couro, borracha e finalmente, composto de madeira laminada recoberta por material aderente. Uma das maiores inovações
+                 veio através da contribuição do soviético Albert Azaryan, que, na década de 1950, executava a melhor rotina do aparelho, vencendo duas Olimpíadas e criador de um dos movimentos mais executados
+                  ainda hoje: a Cruz. Sua estática na execução era considerada perfeita.</p>
+                
+               <p> argolas estão presentes nos Jogos Olímpicos desde a primeira edição, em Atenas, 1896, tendo como primeiro campeão o grego Ioannis Mitropoulos.</p>
+               
+                <h2>Regras</h2>
+
+               <p>As argolas fazem parte da disputa masculina. A área de apresentação é composta por duas argolas circulares de 18cm de diâmetro, suspensas na extremidade de cabos – de 3m de comprimento e distantes 50cm, afixados a uma estrutura metálica com 5,8m de altura. As extremidades das argolas ficam posicionadas a 2,8m do solo. </p>
+
+               <p>Na apresentação, os ginastas utilizam elementos estáticos, de força e impulso para apresentar uma série caracterizada por balanços, apoios e suspensões que devem ser mantidos estáticos por no mínimo 2seg. </p>
+
+               <p>Os elementos e sequências devem ser executados em suspensão, com transições entre elementos de balanço e de força, feitos sempre que possível com os braços estendidos. 
+                Após a entrada no aparelho, geralmente realizada com ajuda do treinador, o ginasta deve iniciar a rotina com os braços esticados e o corpo ereto. </p>
+                
+               <p>Durante a execução, o ginasta deve evitar ao máximo o balanço dos cabos das argolas e não pode cruzá-los. 
+                Apoio, cristo, maltesa e parada são alguns dos elementos mais utilizados para compor as séries nas argolas. 
+                Ao final da apresentação, o ginasta deve realizar a saída do aparelho com um salto.</p>
+            
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>
