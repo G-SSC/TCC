@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1> Calistenia</h1>
+                
+                <h2>História</h2>
+
+                <p>
+                    O desenvolvimento da calistenia começou na França no século XIX. Em 1822, Phokion Heinrich Clias começa a difundir tanto na França como na Inglaterra a calistenia. Marian Mason, uma de suas discípulas, publicou, em 1827, On the utility of exercise; or a few observations on the advantages to be derived from its salutary effects, by means of calisthenic exercises A few observation on callisthenic excercises (Sobre a utilidade do exercício; ou algumas observações sobre as vantagens que se derivam dos efeitos saudáveis dos exercícios de calistenia). 
+                </p>
+
+                <p>
+                    Clias publicou em Paris, em 1828, Callisthenie ou gymnastique des jeunes filles (Calistenia ou ginastica das mulheres jovens). Um ano mais tarde, o livro foi editado em Berna em alemão.[3]
+                </p>
+
+                <p>
+                    A popularidade da calistenia como componente da educação de mulheres se incrementou com a obra dos alemães Friedrich Jahn e Adolf Spiess. Nos Estados Unidos, a difusora da disciplina foi Catharine Beecher, que publicou, em 1857, Physiology and Calisthenics for Schools and Families (Fisiologia e calistenia para as escolas e para as famílias). 
+                </p>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1>Arremesso de Peso</h1>
+                
+                <h2>História</h2>
+
+                <p>A prática do arremesso de peso tem origem atribuída aos povos celtas, que possuíam rituais em que arremessavam pedras e troncos de árvores. Posteriormente, sobretudo no século XVII, essa prática viria a compor eventos festivos. Atualmente, o festival conhecido como Highland Games, realizado na Escócia e em outros países de cultura celta, busca preservar tradições desses povos – entre elas o arremesso de peso, praticado com caráter lúdico e esportivo.</p>
+                
+                <p>Além dos povos celtas, a história do arremesso de peso é marcada por competições de força realizadas entre soldados ingleses. Nessas competições, eram utilizadas balas de canhões de guerra, exercendo grande influência na formação esportiva da modalidade como é conhecida atualmente. Essa influência se traduz, por exemplo, na padronização dos pesos das bolas utilizadas, decorrente de torneios disputados entre universitários ingleses no século XIX.</p>
+
+                <p>Sob influência inglesa, portanto, as primeiras regras para o arremesso de peso foram estabelecidas na década de 1860. Com isso, a modalidade assumiu uma estrutura esportiva que a possibilitou integrar os Jogos Olímpicos da Era Moderna já em sua primeira edição, no ano de 1896, em Atenas. Desde então, passou a ser reconhecida como uma das provas que compõem as competições de atletismo.</p>
+
+                <p>O recorde mundial da modalidade pertence ao americano Ryan Crouser, que alcançou a marca de 22,82 metros. O novo recorde foi estabelecido em 24 de janeiro de 2021, durante a realização do World Indoor Tour, superando os 22,66 metros do americano Randy Barnes, alcançados em 1989. Entre as mulheres, o recorde mundial pertence à soviética Natalya Lisovskaya, com a marca de 22,63 metros, alcançada em 06 de setembro de 1987.</p>
+
+                <h2>Regras</h2>
+
+                <p>O peso deve ter formato esférico e ser fabricado em ferro fundido, chumbo ou bronze. Além disso, deve possuir medidas de 7,26 kg e de 110 a 130 mm (masculino) ou de 4 kg e de 95 a 110 mm (feminino).</p>
+
+                <p>Em provas oficiais limitadas a oito participantes, cada um tem direito a realizar seis arremessos. Já em competições com mais de oito atletas participantes, cada um pode realizar apenas três arremessos.</p>
+
+                <p>O arremesso do peso deve ser feito com a região calosa da mão e dos dedos, portanto sem que haja contato entre o implemento (peso) e a palma da mão do atleta.
+                    As movimentações técnicas para a realização do arremesso devem ser feitas no espaço circular delimitado, chamado de área de arremesso, sem ultrapassá-lo. Esse espaço mede 2,135 m de diâmetro.</p>
+
+                <p>Durante as provas, o atleta não pode pisar ou ultrapassar a marca da área de arremesso. Além disso, não pode deixar o peso cair, sendo que ambas as situações geram a anulação do arremesso (ou da tentativa).
+                    Além disso, durante as provas, o atleta deve entrar e sair da área de arremesso por trás do círculo (área específica), estando sujeito a penalização caso descumpra esse protocolo.</p>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>

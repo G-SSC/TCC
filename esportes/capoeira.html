@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1> Capoeira</h1>
+                
+                <h2>História</h2>
+
+                <p>
+                    A partir do século XVI, Portugal começou a enviar escravos para o Brasil, provenientes primariamente da África Ocidental. Os povos mais frequentemente vendidos no Brasil faziam parte das etnias: iorubá, jeje e hauçá e do grupo banto (incluindo os congos, os quimbundos e os Kasanjes), provenientes dos territórios localizados atualmente em Angola e Congo. 
+                </p>
+
+                <p>
+                    No século XVII, era costume dos povos pastores do sul da atual Angola, na África, comemorar a iniciação dos jovens à vida adulta com uma cerimônia chamada n'golo (que significa "zebra" em quimbundo).
+                </p>
+
+                <p>
+                    Durante a cerimônia, os homens competiam numa luta animada pelo toque de atabaques em que ganhava quem conseguisse encostar o pé na cabeça do adversário. O vencedor tinha o direito de escolher, sem ter de pagar o dote, uma noiva entre as jovens que estavam sendo iniciadas à vida adulta. Com a chegada dos portugueses e a escravização dos povos africanos, esta luta foi introduzida no Brasil. 
+                </p>
+
+                <p>
+                    É proposto que a capoeira surgiu na época do Brasil Colônia, por aculturação como uma saída para expressar desejos para a liberdade da raça negra e pela necessidade de se defender de senhores inimigos.[22] Este povo, na grande parte, era desarmado e usavam seus próprios corpos como seu método de combate, aproveitando-se as danças, cantigas e movimentos manifestados por culturas africanas ao mesmo tempo. 
+                </p>
+
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>

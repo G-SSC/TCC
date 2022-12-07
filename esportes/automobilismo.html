@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1>Automobilismo</h1>
+                
+                <h2>História</h2>
+
+                <p>
+                    O automobilismo é um esporte que se baseia na competição com automóveis. A prática é quase tão antiga quanto o próprio carro: o primeiro registro de uma competição foi na França, pela revista de Paris Le Petit Journal. Foram 69 carros que percorreram 50 km, para depois uma final de 127 km. O vencedor percorreu o trajeto em 6 horas e 48 minutos, com velocidade média de 19 km/h. Para se ter uma ideia, o F-TYPE SVR, caso mantivesse velocidade média de 250 km/h (sua velocidade máxima é de 321km/h), faria o percurso em apenas 30 minutos.
+                </p>
+
+                <p>
+                    Outras corridas de rua aconteceram antes da virada para o século 20, como uma entre a cidade de Paris e Bordéus e outra em Chicago. Aos poucos, a popularidade dos eventos ia aumentando, ainda mais com cada vez mais veículos movidos à gasolina. O problema foi que as competições estavam ficando cada vez mais perigosas, o que motivou algumas mudanças que veremos abaixo.
+                </p>
+
+                <p>
+                    Por medidas de segurança, várias cidades da Europa e Estados Unidos baniram as corridas de rua. A solução para o aspirante esporte foi construir ou adaptar circuitos específicos para a competição entre automóveis.
+                </p>
+
+                <p>
+                    Os primeiros circuitos foram adaptados de hipódromos, utilizados para corridas de cavalos. Entre os primeiros construídos especificamente para o automobilismo do mundo estão o Milwaukee Mile (Estados Unidos, 1903), Brookslands (Inglaterra, 1907) e Indianapolis Motor Speedway (1909, Estados Unidos). Outros bem famosos também surgiram há quase 100 anos, como o Spa-Francorchamps (em que o Jaguar XJS já venceu a competição), na Bélgica, em 1922 e o Circuit de la Sarthe, na França, em 1923.
+                </p>
+
+                <p>
+                    O automobilismo é organizado pela FIA (Federação Internacional de Automobilismo), que surgiu em 1904, na França. A organização é a responsável por regulamentar e inspecionar circuitos e veículos para que estejam de acordo com cada categoria. Entre os tipos de corrida promovidos pela organização estão: corridas off-road, fórmula, turismo, protótipos esportivos, arrancadas (drag race) e ralis.
+                </p>
+
+
+                <h2>Regras</h2>
+
+                <p>
+                    Todas as corridas da F1 devem ter número de voltas suficientes para completar a distância de 305 km, desde o sinal de largada até o final de corrida. Porém, se o tempo de duração de um GP ultrapassar 2 horas, a corrida será encerrada, com o então primeiro colocado sendo declarado vencedor.
+                </p>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1>Aikido</h1>
+                
+                <h2>História</h2>
+
+                <p> Esta arte marcial japonesa, surgida nos anos 20, é a fusão do estilo Daito-ryu Aiki de jiu-jítsu com os preceitos do movimento religioso Omoto-kyo.</p>
+                
+                <p> O resultado é um estilo de movimentos circulares, empurrões e torções, em que o objetivo é se defender sem machucar o rival O “caminho da harmonização das energias” só foi oficializado em 1942, durante a reorganização das artes marciais no Japão.</p>
+                
+                <p> Para os primeiros mestres, não havia diferença entre o aikido e artes japonesas como shodô (caligrafia), sadô (cerimônia do chá) e kadô (arranjos florais) É o caminho para reconciliar o mundo e fazer da humanidade uma só família”, escreveu o fundador, Morihei Ueshiba O estilo atraiu gente da elite e praticantes de outras artes marciais.
+                
+                <p> A partir dos anos 50, ganhou adeptos pelo mundo. </p>
+                    
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>

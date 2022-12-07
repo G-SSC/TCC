@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1>Asa delta</h1>
+                
+                <h2>História</h2>
+
+                <p>A primeira asa-delta foi construída em 852 d.C. por Abbas Ibn Firnas, um árabe. O alemão Otto Lilienthal é considerado o pioneiro, pois desde 1871 se dedicava a construção de planadores que ele mesmo testava em um monte construído por ele e sua equipe nas proximidades de Berlim.</p>
+                
+                <h2>Regras</h2>
+
+                <p>Em confronto frontal os dois pilotos devem mudar suas trajetórias para a direita.
+
+                    Se um piloto se aproxima pela sua direita você deve se desviar pois ele tem preferência.                                                                                                                                                          
+                    
+                    Em confronto frontal em voo de colina, o piloto que tiver a colina à sua direita tem preferência.
+                    
+                    Em voo de colina faça suas curvas se afastando da colina, quando for reverter a direção.</p>
+
+                <p>Em voo de colina, o piloto de trás não deve ultrapassar o piloto a frente que voa na mesma
+                    direção e mesma altura, a ultrapassagem só pode ser feita se houver diferença nos níveis de voo entre os dois pilotos, ver Regra 8.
+                    
+                    Em voo de térmica, o piloto que está em baixo tem preferência, pois não consegue ver o
+                    piloto acima.</p>
+                
+                <p>Em voo de térmica, o piloto que começar a enroscar determina o sentido da rotação do voo
+                    (horário ou anti-horário), tendo os outros pilotos que entrarem na térmica rodar no mesmo sentido.
+                    
+                    Não voe sobre um piloto com menos de 15 metros de desnível entre os dois. Isto evitará colisões caso o piloto debaixo pegue uma ascendente.</p>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>
