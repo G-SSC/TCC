@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1>Bo-taoshi</h1>
+                
+                <h2>História</h2>
+
+                <p>
+                    é um esporte do tipo pique bandeira, que faz bōtaoshi, literalmente parte da cultura japonesa. O Bo-taoshi é famoso por seu tamanho, já que é praticado por duas equipes com 150 indivíduos cada, que competem pelo controle de um único grande mastro] Cada equipe é dividida em dois grupos de 75 atacantes e 75 defensores. Os defensores partem com uma orientação defensiva em relação ao seu pólo, enquanto os atacantes assumem uma posição a alguma distância do pólo adversário. Uma equipe concede se sua vara é trazida para menos de 30 ° na horizontal (começando perpendicular, ou 90 °, na horizontal). Até uma mudança de regra em 1973, o mastro tinha apenas que ser trazido abaixo de 45 ° em relação à horizontal.
+                </p>
+
+                <p>
+                    Uma competição é realizada anualmente desde a fundação da National Defense Academy of Japan, em 1952, e tem como objetivo demonstrar a força física dos cadetes, suas capacidades operacionais e trabalho em equipe. 
+                </p>
+
+                <p>
+                    O esporte também é praticado durante o undōkai uma espécie de evento dedicado aos esportes em escolas no Japão, com algumas adaptações nas regras tradicionais. 
+                </p>
+
+                <h2>Regras:</h2>
+
+                <p>
+                    O jogo consiste em duas equipas que se enfrentam com o objetivo de derrubar o poste do adversário, ao mesmo tempo que defendem o seu. As equipes são divididas em atacantes e defensores. No início do jogo cada equipe é dividida em dois grupos de igual número, um para o ataque e outro para a defesa, quando o árbitro dá a partida, tocando a campainha, os atacantes correm em grupos para a posição de defesa adversário, enquanto os defensores permanecem para proteger seu posto. A equipe que primeiro conseguir derrubar o poste do adversário, ou dobrá-lo em pelo menos 30 graus, vence. 
+                </p>
+
+                <p>
+                    O mastro tem uma altura média de 3 a 5 metros e é segurado de pé pelos defensores.
+                    Dada a complexidade das operações e o grande número de jogadores envolvidos, o jogo requer habilidades físicas e táticas.
+                </p>
+
+                <h2>Equipamentos:</h2>
+
+                <p>
+                    Dada a dinâmica de jogo, particularmente agressiva e o grande número de jogadores, o risco de lesões é particularmente elevado. Para reduzir os riscos, cuidados especiais são tomados, como o uso de capacetes de proteção semelhantes aos do futebol americano, a proibição do uso de calçados, a proibição do uso de bandanas, capuzes ou outras extensões roupas que podem ficar presas no meio da multidão, roupas ou partes delas que podem ser abrasivas ou afiadas.
+                </p>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>

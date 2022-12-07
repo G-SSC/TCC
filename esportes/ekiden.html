@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1>Ekiden</h1>
+                
+                <h2>História</h2>
+
+                <p>
+                    A primeira corrida de ekiden foi patrocinada pelo Yomiuri Shimbun em 1917, e foi realizada durante três dias entre a antiga capital japonesa de Kyoto e a moderna capital de Tóquio, numa distância de 508 km, para comemorar o aniversário da mudança da capital de Kyoto para Edo, que foi então renomeada para Tóquio.
+                </p>
+
+                <p>
+                    Em japonês escrito, ekiden combina o caractere para "estação" (駅) e outro para "transmitir" (伝) e como palavra remonta aos tempos antigos. Como um jogo moderno, no entanto, deve seu nome ao poeta Zenmaro Toki (1885-1980), que era chefe do Departamento de Assuntos Sociais do Yomiuri Shimbun na época. O conceito original da corrida remonta ao antigo sistema de comunicação e transporte Tōkaidō do Japão, no qual as estações eram colocadas em intervalos ao longo da estrada. Na corrida, cada corredor corre a distância de uma "estação" para a próxima e, em seguida, entrega uma faixa de pano, ou tasuki , para o próximo corredor.
+                </p>
+
+                <p>
+                    Os comprimentos de ekiden no Japão podem variar muito, assim como o número de corredores em uma equipe. Por exemplo, no campeonato nacional de ekiden júnior, 5 meninas percorrem 12 quilômetros e 6 meninos percorrem 18 quilômetros. O campeonato nacional do ensino médio envolve 5 meninas em uma corrida de 21 quilômetros e 7 meninos em uma corrida de 42,195 quilômetros, a duração da maratona olímpica moderna . Nos campeonatos intermunicipais nacionais , 9 mulheres correm 42.195 quilômetros e 7 homens correm 48 quilômetros. 
+                </p>
+
+                <p>
+                    Para o colegiado Hakone Ekiden, um evento de 2 dias, 10 atletas masculinos para cada equipe correm 219 quilômetros. Cada corredor cobre pouco mais de meia maratona. O Campeonato Nacional Corporativo Feminino Ekiden de meados de dezembro, 6 corredores cobrem 42.195 quilômetros. No Campeonato Nacional de Ekiden Masculino Corporativo de 1º de janeiro, 7 corredores percorrem 100,0 quilômetros. 
+                </p>
+
+                <p>
+                    Para os campeonatos nacionais abertos de meados de janeiro (equipes compostas por atletas selecionados do ensino fundamental, médio e aberto), as distâncias são de 42.195 para as mulheres e 48,0 para os homens. Notavelmente em distância, no Round-Kyūshū Ekiden , um evento de 10 dias, 72 segmentos cobrem 1064 quilômetros ao redor da Ilha Kyushu e é a corrida de revezamento mais longa do mundo.  
+                </p>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>

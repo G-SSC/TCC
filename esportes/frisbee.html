@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sportive Global Wiki</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../estilos/style.css" media="all">
+    
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <style>
+        html
+            {
+            background-image: url(../imagens/fundo_sobre.jpg) ;
+            background-size: cover;
+            position:absolute;
+            }  
+            </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <section class="cabecalho">
+                <h1 class="titulo">SPORTIVE GLOBAL WIKI</h1>
+            </section>
+        </div>
+    </header>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+    
+    <nav class="nav" id="nav"> 
+        <ul>
+            <li><a href="../principais/index.html"> Pagina Principal</a></li>
+            <li><a href="../principais/sumario.html"> Sumário  </a></li>
+            <li><a href="../principais/sobre.html"> Sobre  </a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+
+    <main>
+        <section>
+            <article>
+                <h1> Frisbee</h1>
+                
+                <h2>História</h2>
+
+                <p>
+                    Na forma como hoje é conhecido, o Frisbee surgiu em 1957, sendo produzido pela empresa Wham-O toy company. Porém, a história do Frysbeie começou antes, em Bridgeport, Connecticut, onde William Frisbie abriu a Frisbie Pie Company em 1871. Estudantes de universidades próximas jogavam as latas de torta vazias entre si, gritando "Frisbie!". Em 1948, Walter Frederick Morrison e seu parceiro Warren Franscyony inventaram uma versão plástica do disco chamada "Disco Voador" que podia voar mais longe e com mais precisão do que as placas de torta de estanho.
+                </p>
+
+                <p>
+                    Depois de se separar de Franscioni, Morrison fez um modelo melhorado em 1955 e o vendeu para a empresa de brinquedos Wham-O como "Pluto Platter" - uma tentativa de lucrar com o sucesso relacionado a temáticas como o espaço sideral e OVNI. Em 1958, um ano após o primeiro lançamento do brinquedo, a Whoam-O mudou seu nome para o disco Frisbee. 
+                </p>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Agradeçemos sua visita, compartilhe o site com amigos e volte sempre.</p>
+        </section>
+    </footer>
+
+    <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+</body>
+</html>
